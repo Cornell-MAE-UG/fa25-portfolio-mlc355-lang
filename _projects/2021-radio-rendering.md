@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+title: Sailboat Hull Design and Manufacturing
+description: Advanced Composites and Naval Architecture Project
+technologies: [Composite sandwhich, CNC, Solidworks]
 image: /assets/images/radio-machine-cad.jpg
 ---
 

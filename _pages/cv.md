@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Marco Conte - CV
 permalink: /cv/
 ---
 ## Curriculum Vitae
@@ -13,14 +13,14 @@ permalink: /cv/
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in structural and fluid simulation, composite materials, and mechanical engineering principles. Passionate about aerospace and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.75/4.0 | Graduation: Month, Year
 
 - **[High School Name]**  
   *High School Diploma*  

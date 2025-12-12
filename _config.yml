@@ -8,11 +8,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Maarco Conte
+title                    : Marco Conte
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Nigga lover
-description              : marco - Projects and CV 
+name                     : Marco Conte
+description              : Marco - Projects and CV 
 baseurl                  :"fa25-portfolio-mlc355-lang" # Set this to your repo name 
 
 # Theme and Style
