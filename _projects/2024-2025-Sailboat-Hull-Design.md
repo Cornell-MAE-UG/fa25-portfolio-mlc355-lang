@@ -6,17 +6,17 @@ technologies: [Composite sandwhich, CNC, Solidworks]
 image: /assets/images/hullCompleteBoat.JPG
 ---
 
-The porject team CUSAIl required a sailboat hull to be designed and manufactured for their boat in the 2024-2025 season. This would become the msot successfull hull seen from the team and design process is detailed below. 
+- Cornell University's Autonomous Sailboat team (CUSAIL) required a sailboat hull to be designed and manufactured for their boat in the 2024-2025 season. This would become the msot successfull hull seen from the team and design process is detailed below. 
 
 Naval Architecture
 
-The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
+- The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
 
-![]({{ "/assets/images/Figure1-HullGeometry.jpg" | relative_url }}){: .inline-image-l}
+![meow]({{ "/assets/images/Figure1-HullGeometry.jpg" | relative_url }}){: .inline-image-l}
 
 Composite Design
 
-To optimize the strength and minimize weight, the hull is designed as a composite and foam core shell. To determine the composite structure we will focus on the least supported panel, the midship section between bulkheads. Here, it is critical that hull integrity is maintained under the slam pressure encountered in poor weather conditions. The midship panel is treated as a simply supported beam, with a tributary width equal to the arclength at the widest section. A uniform distributed load is calculated using the slam pressure and the set tributary width. The bending stiffness of a prospective composite structure is evaluated based on core and face thickness. Then, bending deflection, maximum bending moment, transversal shear and bending stress can be determined. Safety factors are implemented into the magnitude of slam pressure and the strength of the material. Finally, other failure modes such as fatigue failure are evaluated and all figures and calculations are shown in Appendix E. The final composite design includes a core thickness of 6.36 mm and a fiberglass thickness of  0.267 mm. 
+- To optimize the strength and minimize weight, the hull is designed as a composite and foam core shell. To determine the composite structure we will focus on the least supported panel, the midship section between bulkheads. Here, it is critical that hull integrity is maintained under the slam pressure encountered in poor weather conditions. The midship panel is treated as a simply supported beam, with a tributary width equal to the arclength at the widest section. A uniform distributed load is calculated using the slam pressure and the set tributary width. The bending stiffness of a prospective composite structure is evaluated based on core and face thickness. Then, bending deflection, maximum bending moment, transversal shear and bending stress can be determined. Safety factors are implemented into the magnitude of slam pressure and the strength of the material. Finally, other failure modes such as fatigue failure are evaluated and all figures and calculations are shown in Appendix E. The final composite design includes a core thickness of 6.36 mm and a fiberglass thickness of  0.267 mm. 
 
 Plug Creation
 
