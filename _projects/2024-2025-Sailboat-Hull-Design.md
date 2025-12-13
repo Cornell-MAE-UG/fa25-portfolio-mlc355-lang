@@ -16,12 +16,6 @@ Naval Architecture
 
 ![figure 1]({{ "/assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: .inline-image-l}
 
-figure>
-  <img src="/assets/images/Figure1-HullGeometry.jpg" alt="meow">
-  <figcaption>This is a caption for the image.</figcaption>
-</figure>
-
-
 Composite Design
 
 - To optimize the strength and minimize weight, the hull is designed as a composite and foam core shell. To determine the composite structure we will focus on the least supported panel, the midship section between bulkheads. Here, it is critical that hull integrity is maintained under the slam pressure encountered in poor weather conditions. The midship panel is treated as a simply supported beam, with a tributary width equal to the arclength at the widest section. A uniform distributed load is calculated using the slam pressure and the set tributary width. The bending stiffness of a prospective composite structure is evaluated based on core and face thickness. Then, bending deflection, maximum bending moment, transversal shear and bending stress can be determined. Safety factors are implemented into the magnitude of slam pressure and the strength of the material. Finally, other failure modes such as fatigue failure are evaluated and all figures and calculations are shown in Appendix E. The final composite design includes a core thickness of 6.36 mm and a fiberglass thickness of  0.267 mm. 
