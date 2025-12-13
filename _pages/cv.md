@@ -56,26 +56,26 @@ Designed and manufactured a fiberglass and carbon fiber sailboat hull for CUSAIL
   - Collaborated with weld engineering and trades to resolve class-wide weld quality issues
   - DoD Security Clearance
 
-  - **[Optikos Corporation] - Intern**  
+- **[Optikos Corporation] - Intern**  
   [June, 2023] - [August, 2023]  
   - Preformed product design using CAD to enhance capability of assemblies on flagship product 
   - Led engineering design reviews and integrated change orders from analysis by senior engineers
   - Utilized DFX approaches and GD&T on engineering drawings for efficient mass manufacturing
   - Programmed Solidworks macros in VBA to optimize workflow, saving 5 engineering hours/weeke
 
-  - **[Cornell Autonomous Sailboat Project Team] - Mechanical Team Lead**
+- **[Cornell Autonomous Sailboat Project Team] - Mechanical Team Lead**
   [Oct, 2022] - [December, 2025]  
   - Lead a team of 16 engineering students to design and manufacture a championship winning boat
- -  Defined project goals, spearheaded design initiatives, and delegated deliverables 
+  -  Defined project goals, spearheaded design initiatives, and delegated deliverables 
   - Onboarded new members on basic skills in CAD, FEA, and CFD 
   - Lead composite manufacturing, airfoil optimization, and naval architecture efforts
 
-  - **[TEKS Startup] - Manufacturing Engineer**  
+- **[TEKS Startup] - Manufacturing Engineer**  
   [January, 2024] - [May, 2025]  
   - Lead product development group and set milestones/deliverables for timely project completion
   - Source quotes and conduct DFM work on Fusion 360 for economical injection molding
 
-  - **[Walsh Group] - Intern**  
+- **[Walsh Group] - Intern**  
   [June, 2024] - [August, 2024]  
   - Installed/managed thermal sensors on mass concrete pour to dictate cooling per DOT spec
   - Produced material quantities from site plans for procurement and comparison with bid estimates
