@@ -31,7 +31,7 @@ After combining the two halves of the plug, roughly six layers of Duratec primer
 
 ![Figure 4]({{ "assets/images/hullfig4.JPG" | relative_url }}){: class="project-image"}
 
-![Figure 5]({{ "assets/images/hullfig4.JPG" | relative_url }}){: class="project-image"}
+![Figure 5]({{ "assets/images/hullfig5.JPG" | relative_url }}){: class="project-image"}
 
 ## Mold Creation
 
