@@ -39,7 +39,7 @@ To create a negative mold for the hull, a gel coat and layers of fiberglass woul
 
 ![Figure 6]({{ "assets/images/hullfig6.JPG" | relative_url }}){: class="project-image"}
 
-![Figure 7]({{ "assets/images/hullfig7.JPG" | relative_url }}){: class="half-width"}
+![Figure 7]({{ "assets/images/hullfig7.JPG" | relative_url }}){: class="large-image"}
 
 ## Hull Creation
 
