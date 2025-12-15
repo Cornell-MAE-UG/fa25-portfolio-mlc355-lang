@@ -12,7 +12,7 @@ image: /assets/images/hullCompleteBoat.JPG
 
 - The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
 
-![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="half-width"}
+![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="small"}
 
 ## Composite Design
 
@@ -20,7 +20,7 @@ image: /assets/images/hullCompleteBoat.JPG
 
 ## Plug Creation
 
-![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="half-width algin-left"}
+![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="quarter-width centered}
 
 To manufacture the hull, a positive model of the hull, called a plug, is CNC machined. Then a negative mold can be created by performing a layup over the plug. High-density machinable foam was CNC cut to the shape of the hull. The plug, seen in figure 2, was cut to specifications and with satisfactory quality. The plug was cut in two halves that could be placed together with locating dowels. To create one solid plug, JB Weld is used to glue the two halves and locating dowels into place. Afterwards, the seam between the two pieces was filled in with Plaster of Paris as seen in figure 3. 
 
