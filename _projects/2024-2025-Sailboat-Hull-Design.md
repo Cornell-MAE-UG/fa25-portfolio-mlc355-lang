@@ -12,7 +12,7 @@ image: /assets/images/hullCompleteBoat.JPG
 
 - The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
 
-![](/assets/images/Figure1-HullGeometry.JPG)
+![Profile Picture]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="profile-image"}
 
 ## Composite Design
 
