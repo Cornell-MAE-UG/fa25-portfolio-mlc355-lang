@@ -28,9 +28,9 @@ To manufacture the hull, a positive model of the hull, called a plug, is CNC mac
 
 After combining the two halves of the plug, roughly six layers of Duratec primer were sprayed onto the plug as described in Appendix A. In between layers of Duratec, a brief sanding was done to remove any surface imperfections that would translate into the next coat. This practice provided satisfactory results, however the foam plug initially had machining lines that were visible in the plug as seen in figure 4. Extensive sanding was required through the Duratec to remove these lines, which could have been easily removed with sanding prior to applying the Duratec. For future practice, the plug should be sanding smooth with a low-grit sandpaper prior to any application of Duratec. After the final coat of primer, sanding was conducted using the procedure listed in Appendix B. The final result of the plug, seen in figure 5, was considered satisfactory.
 
-![](/assets/images/HullFig4.JPG)
+![Figure 4]({{ "assets/images/HullFig4.JPG" | relative_url }}){: class="half-width"}
 
-![](/assets/images/HullFig5.JPG)
+![Figure 4]({{ "assets/images/HullFig4.JPG" | relative_url }}){: class="half-width"}
 
 ## Mold Creation
 
