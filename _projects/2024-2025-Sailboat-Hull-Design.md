@@ -13,7 +13,7 @@ image: /assets/images/hullCompleteBoat.JPG
 
 - The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
 
-![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="project-image"}
+![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="project-image align-right"}
 
 ## Composite Design
 
@@ -21,11 +21,11 @@ image: /assets/images/hullCompleteBoat.JPG
 
 ## Plug Creation
 
-![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="project-image"}
+![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="project-image align-right"}
 
 To manufacture the hull, a positive model of the hull, called a plug, is CNC machined. Then a negative mold can be created by performing a layup over the plug. High-density machinable foam was CNC cut to the shape of the hull. The plug, seen in figure 2, was cut to specifications and with satisfactory quality. The plug was cut in two halves that could be placed together with locating dowels. To create one solid plug, JB Weld is used to glue the two halves and locating dowels into place. Afterwards, the seam between the two pieces was filled in with Plaster of Paris as seen in figure 3. 
 
-![Figure 3]({{ "assets/images/hullFig3.JPG" | relative_url }}){: class="project-image"}
+![Figure 3]({{ "assets/images/hullFig3.JPG" | relative_url }}){: class="project-image align-right"}
 
 After combining the two halves of the plug, roughly six layers of Duratec primer were sprayed onto the plug as described in Appendix A. In between layers of Duratec, a brief sanding was done to remove any surface imperfections that would translate into the next coat. This practice provided satisfactory results, however the foam plug initially had machining lines that were visible in the plug as seen in figure 4. Extensive sanding was required through the Duratec to remove these lines, which could have been easily removed with sanding prior to applying the Duratec. For future practice, the plug should be sanding smooth with a low-grit sandpaper prior to any application of Duratec. After the final coat of primer, sanding was conducted using the procedure listed in Appendix B. The final result of the plug, seen in figure 5, was considered satisfactory.
 
