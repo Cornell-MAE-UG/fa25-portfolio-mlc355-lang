@@ -19,11 +19,12 @@ image: /assets/images/hullCompleteBoat.JPG
 - To optimize the strength and minimize weight, the hull is designed as a composite and foam core shell. To determine the composite structure we will focus on the least supported panel, the midship section between bulkheads. Here, it is critical that hull integrity is maintained under the slam pressure encountered in poor weather conditions. The midship panel is treated as a simply supported beam, with a tributary width equal to the arclength at the widest section. A uniform distributed load is calculated using the slam pressure and the set tributary width. The bending stiffness of a prospective composite structure is evaluated based on core and face thickness. Then, bending deflection, maximum bending moment, transversal shear and bending stress can be determined. Safety factors are implemented into the magnitude of slam pressure and the strength of the material. Finally, other failure modes such as fatigue failure are evaluated and all figures and calculations are shown in Appendix E. The final composite design includes a core thickness of 6.36 mm and a fiberglass thickness of  0.267 mm. 
 
 ## Plug Creation
-![](/assets/images/HullFig2.JPG)
+
+![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="half-width algin-left"}
 
 To manufacture the hull, a positive model of the hull, called a plug, is CNC machined. Then a negative mold can be created by performing a layup over the plug. High-density machinable foam was CNC cut to the shape of the hull. The plug, seen in figure 2, was cut to specifications and with satisfactory quality. The plug was cut in two halves that could be placed together with locating dowels. To create one solid plug, JB Weld is used to glue the two halves and locating dowels into place. Afterwards, the seam between the two pieces was filled in with Plaster of Paris as seen in figure 3. 
 
-![](/assets/images/HullFig3.JPG)
+![Figure 3]({{ "assets/images/HullFig3.JPG" | relative_url }}){: class="half-width"}
 
 After combining the two halves of the plug, roughly six layers of Duratec primer were sprayed onto the plug as described in Appendix A. In between layers of Duratec, a brief sanding was done to remove any surface imperfections that would translate into the next coat. This practice provided satisfactory results, however the foam plug initially had machining lines that were visible in the plug as seen in figure 4. Extensive sanding was required through the Duratec to remove these lines, which could have been easily removed with sanding prior to applying the Duratec. For future practice, the plug should be sanding smooth with a low-grit sandpaper prior to any application of Duratec. After the final coat of primer, sanding was conducted using the procedure listed in Appendix B. The final result of the plug, seen in figure 5, was considered satisfactory.
 
