@@ -45,9 +45,9 @@ To create a negative mold for the hull, a gel coat and layers of fiberglass woul
 
 First, release agents such as wax and PVA were applied, the gel coat was sprayed in, then fiberglass was laid and saturated. Three layers of 2 oz fiberglass were initially used for the layup. Afterwards, a layer of 7 oz fiberglass and strips of carbon fiber were used to stiffen the hull in high stress areas such as the bow, keel connection, and underbelly. The hull after its release from the mold, is seen in figure 9.
 
-![](/assets/images/HullFig9.JPG)
+![Figure 9]({{ "assets/images/hullfig9.JPG" | relative_url }}){: class="large-image"}
 
-![](/assets/images/HullBOM.JPG)
+![BOM ]({{ "assets/images/HullBOM.JPG" | relative_url }}){: class="large-image"}
 
 ## Appendix A - How to spray Duratec Surface Primer
 
