@@ -29,7 +29,7 @@ To manufacture the hull, a positive model of the hull, called a plug, is CNC mac
 
 After combining the two halves of the plug, roughly six layers of Duratec primer were sprayed onto the plug as described in Appendix A. In between layers of Duratec, a brief sanding was done to remove any surface imperfections that would translate into the next coat. This practice provided satisfactory results, however the foam plug initially had machining lines that were visible in the plug as seen in figure 4. Extensive sanding was required through the Duratec to remove these lines, which could have been easily removed with sanding prior to applying the Duratec. For future practice, the plug should be sanding smooth with a low-grit sandpaper prior to any application of Duratec. After the final coat of primer, sanding was conducted using the procedure listed in Appendix B. The final result of the plug, seen in figure 5, was considered satisfactory.
 
-![Figure 4]({{ "assets/images/hullfig4.JPG" | relative_url }}){: class="project-image"}
+![Figure 4]({{ "assets/images/hullFig4.JPG" | relative_url }}){: class="project-image"}
 
 ![Figure 5]({{ "assets/images/hullfig5.JPG" | relative_url }}){: class="project-image"}
 
@@ -38,7 +38,8 @@ After combining the two halves of the plug, roughly six layers of Duratec primer
 To create a negative mold for the hull, a gel coat and layers of fiberglass would be applied on top of the plug. First, 8 layers of wax were applied to the surface of the plug. The wax increases the surface finish of the plug and also acts as a release agent for the subsequent layers. After the wax, modeling clay was used to seal the gap between the plug and the board it was placed on as seen in figure 6. The gap between the plug and board is sealed to stop resin from leaking under the plug and increasing the difficulty of mold release. The plug was then moved into the spray booth, where a layer of PVA release film was sprayed onto the plug. After the PVA had dried, a tooling gel coat was applied to the plug using the gel coat spray gun. Figure 7 shows the plug after applications of PVA and gel coat. For details on spraying gel coat, see Appendix C. A thickness gauge was used to target a total thickness of 15 mils (thousandth of an inch). Then, the gel coat was allowed to set for roughly 30-45 minutes before fiberglass was laid in. Allowing the gel coat to become tacky improves the bond between the gel coat and fiberglass. Not giving enough time for the gel coat to set will cause it to mix with the laminating resin, creating unsatisfactory results. Two layers of 7 oz fiberglass were placed behind the gel coat. Paper templates had been cut out and placed over the plug to ensure wrinkles did not form in the complex curves. These templates were used to cut the fiberglass which prevented wrinkles and easier to lay into the mold. At the stern, significant work was required to ensure the fiberglass conformed to that area. The fiberglass often peeled up from the 90 degree bend and required creative use of resin and extra strips of fiberglass to keep everything in place. With all of the composite materials laid and saturated with resin, a vacuum bag was used to ensure close fitment to the plug. Details of how to perform a vacuum bag are included in Appendix D. 
 
 ![Figure 6]({{ "assets/images/hullfig6.JPG" | relative_url }}){: class="project-image"}
-![Figure 7]({{ "assets/images/hullfig7.JPG" | relative_url }}){: class="project-image"}
+
+![Figure 7]({{ "assets/images/hullfig7.JPG" | relative_url }}){: class="half-width"}
 
 ## Hull Creation
 
