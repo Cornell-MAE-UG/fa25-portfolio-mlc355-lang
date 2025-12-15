@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Spaceship Design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
+title: Ridgid Sail Design
+description: The design of a ridgid Sail validated with CFD and FEA
+technologies: [SolidWorks, CFD, FEA]
 image: /assets/images/spaceship-design.jpg
 ---
 
