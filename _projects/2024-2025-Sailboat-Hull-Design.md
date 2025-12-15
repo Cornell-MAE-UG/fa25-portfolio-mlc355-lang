@@ -20,7 +20,7 @@ image: /assets/images/hullCompleteBoat.JPG
 
 ## Plug Creation
 
-![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="quarter-width centered}
+![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="large centered"}
 
 To manufacture the hull, a positive model of the hull, called a plug, is CNC machined. Then a negative mold can be created by performing a layup over the plug. High-density machinable foam was CNC cut to the shape of the hull. The plug, seen in figure 2, was cut to specifications and with satisfactory quality. The plug was cut in two halves that could be placed together with locating dowels. To create one solid plug, JB Weld is used to glue the two halves and locating dowels into place. Afterwards, the seam between the two pieces was filled in with Plaster of Paris as seen in figure 3. 
 
