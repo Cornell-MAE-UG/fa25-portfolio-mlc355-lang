@@ -1,9 +1,8 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+title: MAE 4300 Writeup
+description: Reflection Essay on MAE 4300
+image: 
 ---
 
 Across my writing, I have come to understand engineering not as a purely technical discipline, but as a deeply social practice shaped by human values, relationships, and responsibilities. Engineers do not create in isolation. Their decisions are embedded in social systems, influenced by personal motivations, institutional pressures, and historical contexts. As a result, the impacts of engineering work extend far beyond functionality or efficiency, shaping how people live, interact, and experience the world.
