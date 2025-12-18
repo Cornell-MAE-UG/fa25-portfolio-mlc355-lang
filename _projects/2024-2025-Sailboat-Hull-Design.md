@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Sailboat Hull Design and Manufacturing
+title: Fiberglass Sailboat Hull
 description: Advanced Composites and Naval Architecture Project
 technologies: [Composite sandwhich, CNC, Solidworks]
 image: /assets/images/hullCompleteBoat.JPG
