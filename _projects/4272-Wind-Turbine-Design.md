@@ -52,6 +52,9 @@ The blade was designed around a **low tip-speed ratio (λ = 3)** to intentionall
 This geometry prioritizes torque generation while maintaining structural robustness and manufacturability.
 
 ![Figure 2]({{ "assets/images/torque.JPG" | relative_url }}){: class="project-image align-right"}
+
+---
+
 *Figure 2: Predicted rotor torque vs. expected wind speeds*
 
 ---
@@ -61,6 +64,9 @@ This geometry prioritizes torque generation while maintaining structural robustn
 Structural safety was assessed using MATLAB-based bending moment calculations derived from distributed aerodynamic loads. Accura 25 SLA material properties were used to verify that stresses remained well below allowable limits.
 
 ![Figure 3]({{ "assets/images/bend.JPG" | relative_url }}){: class="project-image align-right"}
+
+---
+
 *Figure 3: Root bending moment and structural safety margin.*
 
 The predicted **failure wind speed of ~68 m/s** provides more than a **10× safety margin** over expected operating conditions.
@@ -73,6 +79,9 @@ The blade was modeled in **SolidWorks** using multiple airfoil cross-sections lo
 
 
 ![Figure 4]({{ "assets/images/cad.JPG" | relative_url }}){: class="project-image align-right"}
+
+---
+
 *Figure 4: Final closed CAD geometry used for CFD analysis.*
 
 These challenges required manual airfoil data cleanup and segmented lofting, introducing minor geometric discontinuities that were deemed negligible for aerodynamic analysis.
@@ -89,12 +98,21 @@ The CFD model used a **120° periodic wedge domain** to reduce computational cos
 A refined surface and polyhedral volume mesh balanced near-wall resolution with manageable runtime.
 
 ![Figure 5]({{ "assets/images/mesh.JPG" | relative_url }}){: class="project-image align-right"}
+
+---
+
 *Figure 5: Volume mesh cross-section*
 
 
 
 ![Figure 6]({{ "assets/images/p.JPG" | relative_url }}){: class="project-image align-right"}
+
+---
+
 *Figure 6: Pressure contour along the blade surface*
 
 ![Figure 7]({{ "assets/images/p2.JPG" | relative_url }}){: class="project-image align-right"}
+
+---
+
 *Figure 7: Pressure contour across blade crossection*
