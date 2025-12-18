@@ -5,7 +5,7 @@ year: 2025
 description: "Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers.
 technologies: [Blade element theory, ANSYS Fluent CFD, structural validation,  wind tunnel testing]
 featured: true
-image: /assets/images/blade.png
+image: /assets/images/blade.jpg
 ---
 
 # Torque-Optimized Wind Turbine Blade  
@@ -34,6 +34,7 @@ The blade was designed for operation in the **Big Blue wind tunnel**, characteri
 A comparative evaluation of low-Re airfoils identified the **S1223 airfoil** as the optimal choice. Unlike conventional sections, the S1223 achieves **exceptionally high lift coefficients (CL ≈ 1.8–2.0)** in the relevant Reynolds range and exhibits **gentle stall behavior**, which is critical for stable torque production during startup and off-design operation.
 
 ![Figure 1]({{ "assets/images/s1223.JPG" | relative_url }}){: class="project-image align-right"}
+
 *Figure 1: Lift coefficient vs. angle of attack comparison at low Reynolds number.*
 
 ---
@@ -57,8 +58,6 @@ This geometry prioritizes torque generation while maintaining structural robustn
 
 Structural safety was assessed using MATLAB-based bending moment calculations derived from distributed aerodynamic loads. Accura 25 SLA material properties were used to verify that stresses remained well below allowable limits.
 
-
-
 ![Figure 3]({{ "assets/images/bend.JPG" | relative_url }}){: class="project-image align-right"}
 *Figure 3: Root bending moment and structural safety margin.*
 
@@ -81,7 +80,7 @@ These challenges required manual airfoil data cleanup and segmented lofting, int
 ## CFD Methodology (ANSYS Fluent)
 
 ### Geometry and Domain
-The CFD model used a **120° periodic wedge domain** to reduce computational cost while capturing rotational flow physics.
+The CFD model used a **120° periodic wedge domain** to reduce computational cost while capturing rotational flow physics. Both environmental wind and flow cuased by rotation are modeled in this simulation, providing realistic pressure countours as seen below
 
 
 ### Meshing
@@ -89,6 +88,8 @@ A refined surface and polyhedral volume mesh balanced near-wall resolution with 
 
 ![Figure 5]({{ "assets/images/mesh.JPG" | relative_url }}){: class="project-image align-right"}
 *Figure 5: Volume mesh cross-section*
+
+
 
 ![Figure 6]({{ "assets/images/p.JPG" | relative_url }}){: class="project-image align-right"}
 *Figure 6: Pressure contour along the blade surface*
