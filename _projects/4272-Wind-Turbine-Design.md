@@ -5,7 +5,7 @@ year: 2025
 description: "Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers.
 technologies: [Blade element theory, ANSYS Fluent CFD, structural validation,  wind tunnel testing]
 featured: true
-image: /assets/images/blade.jpg
+image: /assets/images/p2.jpg
 ---
 
 # Torque-Optimized Wind Turbine Blade  
