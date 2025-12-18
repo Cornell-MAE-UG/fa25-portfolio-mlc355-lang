@@ -35,6 +35,8 @@ A comparative evaluation of low-Re airfoils identified the **S1223 airfoil** as 
 
 ![Figure 1]({{ "assets/images/s1223.JPG" | relative_url }}){: class="project-image align-right"}
 
+---
+
 *Figure 1: Lift coefficient vs. angle of attack comparison at low Reynolds number.*
 
 ---
