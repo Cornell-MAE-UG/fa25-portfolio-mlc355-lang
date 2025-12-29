@@ -23,9 +23,9 @@ To optimize strength while minimizing weight, the hull was designed as a **fiber
 
 The midship panel was modeled as a **simply supported beam** with tributary width equal to the arclength at the widest section. A uniformly distributed load was calculated from estimated slam pressure. Bending stiffness was evaluated as a function of face and core thickness, enabling determination of deflection, bending moment, shear forces, and stresses.
 
-Safety factors were applied to both slam pressure magnitude and material strength. Additional failure modes, including fatigue, were evaluated. The Matlab graphs used to choose the core and face thickness are shown on the right.
-
 ![Figure A]({{ "assets/images/AppA.JPG" | relative_url }}){: class="large-image align-right"}
+
+Safety factors were applied to both slam pressure magnitude and material strength. Additional failure modes, including fatigue, were evaluated. The Matlab graphs used to choose the core and face thickness are shown on the right.
 
 The final composite design consists of:
 - **Core thickness:** 6.36 mm  
