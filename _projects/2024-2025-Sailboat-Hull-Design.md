@@ -1,19 +1,20 @@
 ---
 layout: project
 title: Fiberglass Sailboat Hull
-description: Advanced Composites and Naval Architecture Project
-technologies: [Composite sandwhich, CNC, Solidworks]
+description: "Advanced Composites and Naval Architecture Project"
+technologies: "Composite sandwhich, CNC machining, Solidworks"
 image: /assets/images/hullCompleteBoat.JPG
 
 ---
+## Project Overview
 
-- Cornell University's Autonomous Sailboat team (CUSAIL) required a sailboat hull to be designed and manufactured for their boat in the 2024-2025 season. This would become the msot successfull hull seen from the team and design process is detailed below. 
+Cornell University’s Autonomous Sailboat Team (CUSail) required a new sailboat hull for the 2024–2025 competition season. The resulting design became the **most successful hull produced by the team to date**, achieving improved stability, reduced ballast requirements, and enhanced manufacturability. The full design and fabrication process is detailed below.
+
+![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="project-image align-right"}
 
 ## Naval Architecture
 
 - The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
-
-![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="project-image align-right"}
 
 ## Composite Design
 
