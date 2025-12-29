@@ -2,9 +2,10 @@
 layout: project
 title: Fiberglass Sailboat Hull
 description: "Advanced Composites and Naval Architecture Project"
-technologies: "Composite sandwhich, CNC machining, Matlab, Solidworks"
+technologies: Composite sandwhich, CNC machining, Matlab, Solidworks
 image: /assets/images/hullCompleteBoat.JPG
 
+"Advanced Composites and Naval Architecture Project"
 ---
 ## Project Overview
 
@@ -12,7 +13,7 @@ Cornell University’s Autonomous Sailboat Team (CUSail) required a new sailboat
 
 ## Naval Architecture
 
-- The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
+The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
 
 ![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="project-image align-right"}
 
@@ -38,27 +39,28 @@ To manufacture the hull, a **positive plug** was CNC machined from high-density 
 
 After assembly, the seam between the two halves was filled using **Plaster of Paris** to create a continuous surface. 
 
-![Figure 3]({{ "assets/images/hullFig3.JPG" | relative_url }}){: class="project-image align-right"}
-
 Approximately six layers of **Duratec surface primer** were applied, with light sanding between coats to remove surface imperfections. Initial machining lines in the foam plug remained visible after early primer coats, requiring extensive sanding. In future iterations, sanding the foam plug prior to primer application is recommended.
-
-![Figure 4]({{ "assets/images/hullFig4.JPG" | relative_url }}){: class="project-image"}
-
---- 
 
 ![Figure 5]({{ "assets/images/hullfig5.JPG" | relative_url }}){: class="project-image"}
 
 ## Mold Creation
 
-To create a negative mold for the hull, a gel coat and layers of fiberglass would be applied on top of the plug. First, 8 layers of wax were applied to the surface of the plug. The wax increases the surface finish of the plug and also acts as a release agent for the subsequent layers. After the wax, modeling clay was used to seal the gap between the plug and the board it was placed on as seen in figure 6. The gap between the plug and board is sealed to stop resin from leaking under the plug and increasing the difficulty of mold release. The plug was then moved into the spray booth, where a layer of PVA release film was sprayed onto the plug. After the PVA had dried, a tooling gel coat was applied to the plug using the gel coat spray gun. Figure 7 shows the plug after applications of PVA and gel coat. For details on spraying gel coat, see Appendix C. A thickness gauge was used to target a total thickness of 15 mils (thousandth of an inch). Then, the gel coat was allowed to set for roughly 30-45 minutes before fiberglass was laid in. Allowing the gel coat to become tacky improves the bond between the gel coat and fiberglass. Not giving enough time for the gel coat to set will cause it to mix with the laminating resin, creating unsatisfactory results. Two layers of 7 oz fiberglass were placed behind the gel coat. Paper templates had been cut out and placed over the plug to ensure wrinkles did not form in the complex curves. These templates were used to cut the fiberglass which prevented wrinkles and easier to lay into the mold. At the stern, significant work was required to ensure the fiberglass conformed to that area. The fiberglass often peeled up from the 90 degree bend and required creative use of resin and extra strips of fiberglass to keep everything in place. With all of the composite materials laid and saturated with resin, a vacuum bag was used to ensure close fitment to the plug. Details of how to perform a vacuum bag are included in Appendix D. 
+A **negative fiberglass mold** was created over the finished plug. Eight layers of wax were applied to improve surface finish and act as a release agent. Modeling clay was used to seal the gap between the plug and mounting board, preventing resin leakage.
 
-![Figure 6]({{ "assets/images/hullfig6.JPG" | relative_url }}){: class="project-image"}
+After waxing, a layer of **PVA release film** was sprayed onto the plug, followed by a tooling gel coat. A thickness gauge was used to achieve a total gel coat thickness of approximately **15 mils**.
 
-![Figure 7]({{ "assets/images/hullfig7.JPG" | relative_url }}){: class="large-image"}
+Once the gel coat became tacky, two layers of **7 oz fiberglass** were laid using paper templates to avoid wrinkling in complex curvature regions, particularly near the stern. Additional fiberglass strips and resin were used to ensure conformity in high-curvature areas.
+
+The mold layup was vacuum bagged to ensure proper consolidation. Full vacuum bagging procedures are detailed in **Appendix D**. 
 
 ## Hull Creation
 
-First, release agents such as wax and PVA were applied, the gel coat was sprayed in, then fiberglass was laid and saturated. Three layers of 2 oz fiberglass were initially used for the layup. Afterwards, a layer of 7 oz fiberglass and strips of carbon fiber were used to stiffen the hull in high stress areas such as the bow, keel connection, and underbelly. The hull after its release from the mold, is seen in figure 9.
+For final hull fabrication, release agents were applied to the mold before spraying gel coat. The structural layup consisted of:
+- Three layers of **2 oz fiberglass**
+- One layer of **7 oz fiberglass**
+- Carbon fiber reinforcement in high-stress regions including the bow, keel interface, and underbelly
+
+The completed hull was released successfully from the mold and met all structural and geometric requirements.
 
 ![Figure 9]({{ "assets/images/hullfig9.JPG" | relative_url }}){: class="large-image"}
 
@@ -108,7 +110,8 @@ First, release agents such as wax and PVA were applied, the gel coat was sprayed
 
 The following figures are generated using a model that focuses on loading due to hull slam pressure. The geometry focuses on the largest unsupported panel (of length L) in the composite strucutre, and trats it as a flat sheet. This model was chosen becuase it introduces conservatisim into the design. Both bending (Euler Bernoulli) and shear (Timoshenko) deflection were accounted for to calculate bending moments and shear forces. A deflection target of L/200 was chosen based off of maritime standards. 
 
-![](/assets/images/hullAppendix A.jpg.JPG)
+![Figure A]({{ "assets/images/AppA.JPG" | relative_url }}){: class="large-image"}
+![Figure B]({{ "assets/images/hullSNcurve.JPG" | relative_url }}){: class="large-image"}
 
 ### Meaningful deductions
 
