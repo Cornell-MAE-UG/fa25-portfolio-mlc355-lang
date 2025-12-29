@@ -28,8 +28,9 @@ The final composite design consists of:
 - **Core thickness:** 6.36 mm  
 - **Fiberglass face thickness:** 0.267 mm  
 
-![Figure 2]({{ "assets/images/AppA.JPG" | relative_url }}){: class="project-image align-right"}
+![Figure 2]({{ "assets/images/AppA.JPG" | relative_url }}){: class="large-image align-right"}
 
+---
 
 ## Plug Creation
 
