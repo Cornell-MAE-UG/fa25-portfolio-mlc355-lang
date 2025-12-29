@@ -24,13 +24,11 @@ The midship panel was modeled as a **simply supported beam** with tributary widt
 
 Safety factors were applied to both slam pressure magnitude and material strength. Additional failure modes, including fatigue, were evaluated. The Matlab graphs used to choose the core and face thickness are shown on the right.
 
+![Figure A]({{ "assets/images/AppA.JPG" | relative_url }}){: class="large-image align-right"}
+
 The final composite design consists of:
 - **Core thickness:** 6.36 mm  
 - **Fiberglass face thickness:** 0.267 mm  
-
-![Figure 2]({{ "assets/images/AppA.JPG" | relative_url }}){: class="large-image align-right"}
-
----
 
 ## Plug Creation
 
