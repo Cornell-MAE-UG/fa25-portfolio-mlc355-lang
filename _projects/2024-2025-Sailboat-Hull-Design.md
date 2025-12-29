@@ -2,7 +2,7 @@
 layout: project
 title: Fiberglass Sailboat Hull
 description: "Advanced Composites and Naval Architecture Project"
-technologies: "Composite sandwhich, CNC machining, Solidworks"
+technologies: "Composite sandwhich, CNC machining, Matlab, Solidworks"
 image: /assets/images/hullCompleteBoat.JPG
 
 ---
@@ -18,7 +18,18 @@ Cornell University’s Autonomous Sailboat Team (CUSail) required a new sailboat
 
 ## Composite Design
 
-- To optimize the strength and minimize weight, the hull is designed as a composite and foam core shell. To determine the composite structure we will focus on the least supported panel, the midship section between bulkheads. Here, it is critical that hull integrity is maintained under the slam pressure encountered in poor weather conditions. The midship panel is treated as a simply supported beam, with a tributary width equal to the arclength at the widest section. A uniform distributed load is calculated using the slam pressure and the set tributary width. The bending stiffness of a prospective composite structure is evaluated based on core and face thickness. Then, bending deflection, maximum bending moment, transversal shear and bending stress can be determined. Safety factors are implemented into the magnitude of slam pressure and the strength of the material. Finally, other failure modes such as fatigue failure are evaluated and all figures and calculations are shown in Appendix E. The final composite design includes a core thickness of 6.36 mm and a fiberglass thickness of  0.267 mm. 
+To optimize strength while minimizing weight, the hull was designed as a **fiberglass composite sandwich structure with a foam core**. Structural analysis focused on the **least supported midship panel** between bulkheads, which experiences the highest loading under slam pressure during rough conditions.
+
+The midship panel was modeled as a **simply supported beam** with tributary width equal to the arclength at the widest section. A uniformly distributed load was calculated from estimated slam pressure. Bending stiffness was evaluated as a function of face and core thickness, enabling determination of deflection, bending moment, shear forces, and stresses.
+
+Safety factors were applied to both slam pressure magnitude and material strength. Additional failure modes, including fatigue, were evaluated. The Matlab graphs used to illustrate the design space are seen on the right.
+
+The final composite design consists of:
+- **Core thickness:** 6.36 mm  
+- **Fiberglass face thickness:** 0.267 mm  
+
+![Figure 2]({{ "assets/images/AppA.JPG" | relative_url }}){: class="project-image align-right"}
+
 
 ## Plug Creation
 
