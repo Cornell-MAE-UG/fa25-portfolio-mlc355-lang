@@ -18,17 +18,15 @@ The hull design, named ”Flat Stanley”, was chosen from a miniature model com
 
 ![Fig 1](/assets/images/Figure1-HullGeometry.JPG)
 
-![Figure 1]({{ "assets/images/Figure1-HullGeometry.JPG" | relative_url }}){: class="project-image align-right"}
-
 ## Composite Design
 
 To optimize strength while minimizing weight, the hull was designed as a **fiberglass composite sandwich structure with a foam core**. Structural analysis focused on the **least supported midship panel** between bulkheads, which experiences the highest loading under slam pressure during rough conditions.
 
 The midship panel was modeled as a **simply supported beam** with tributary width equal to the arclength at the widest section. A uniformly distributed load was calculated from estimated slam pressure. Bending stiffness was evaluated as a function of face and core thickness, enabling determination of deflection, bending moment, shear forces, and stresses.
 
-![Figure A]({{ "assets/images/AppA.JPG" | relative_url }}){: class="project-image align-right"}
+![Fig A](/assets/images/AppA.JPG)
 
-Safety factors were applied to both slam pressure magnitude and material strength. Additional failure modes, including fatigue, were evaluated. The Matlab graphs used to choose the core and face thickness are shown on the right.
+Safety factors were applied to both slam pressure magnitude and material strength. Additional failure modes, including fatigue, were evaluated. The Matlab graphs used to choose the core and face thickness are shown on the right. For more information on the composite design process see Appendix A. 
 
 The final composite design consists of:
 - **Core thickness:** 6.36 mm  
@@ -36,7 +34,7 @@ The final composite design consists of:
 
 ## Plug Creation
 
-![Figure 2]({{ "assets/images/HullFig2.JPG" | relative_url }}){: class="project-image align-right"}
+![Fig 2](/assets/images/HullFig2.JPG)
 
 To manufacture the hull, a **positive plug** was CNC machined from high-density machinable foam. The plug was produced in two halves and aligned using locating dowels before being bonded together using JB Weld.
 
@@ -44,7 +42,7 @@ After assembly, the seam between the two halves was filled using **Plaster of Pa
 
 Approximately six layers of **Duratec surface primer** were applied, with light sanding between coats to remove surface imperfections. Initial machining lines in the foam plug remained visible after early primer coats, requiring extensive sanding. In future iterations, sanding the foam plug prior to primer application is recommended.
 
-![Figure 5]({{ "assets/images/hullfig5.JPG" | relative_url }}){: class="project-image"}
+![Figure 5](/assets/images/hullfig5.JPG)
 
 ## Mold Creation
 
@@ -54,7 +52,7 @@ After waxing, a layer of **PVA release film** was sprayed onto the plug, followe
 
 Once the gel coat became tacky, two layers of **7 oz fiberglass** were laid using paper templates to avoid wrinkling in complex curvature regions, particularly near the stern. Additional fiberglass strips and resin were used to ensure conformity in high-curvature areas.
 
-The mold layup was vacuum bagged to ensure proper consolidation. Full vacuum bagging procedures are detailed in **Appendix D**. 
+The mold layup was vacuum bagged to ensure proper consolidation. Full vacuum bagging procedures are detailed in **Appendix E**. 
 
 ## Hull Creation
 
@@ -65,11 +63,26 @@ For final hull fabrication, release agents were applied to the mold before spray
 
 The completed hull was released successfully from the mold and met all structural and geometric requirements.
 
-![Figure 9]({{ "assets/images/hullfig9.JPG" | relative_url }}){: class="large-image"}
+![Figure 9](/assets/images/hullfig9.JPG)
 
-![BOM ]({{ "assets/images/HullBOM.JPG" | relative_url }}){: class="large-image"}
+![BOM ](/assets/images/HullBOM.JPG)
 
-## Appendix A - How to spray Duratec Surface Primer
+## Appendix A - Composite Design Calculations and Figures
+
+The following figures are generated using a model that focuses on loading due to hull slam pressure. The geometry focuses on the largest unsupported panel (of length L) in the composite strucutre, and trats it as a flat sheet. This model was chosen becuase it introduces conservatisim into the design. Both bending (Euler Bernoulli) and shear (Timoshenko) deflection were accounted for to calculate bending moments and shear forces. A deflection target of L/200 was chosen based off of maritime standards. 
+
+![Fig A](/assets/images/AppA.JPG)
+
+### Meaningful deductions
+
+Based on Figure E1, which assumes a nominal face thickness of 0.24 mm, the required core thickness to reach out target deflection is 6.24 mm. The foam we will use is Divinycell DIVINYMAT due to its effectiveness with vacuum bagging. Each layer is 3.18 mm thick so to reach our target deflection two layers will be used for a 6.36 mm thick core. The shear deflection share (what percentage of deflection is caused by shear) is plotted in Figure E2. To maintain model assumptions, we need to ensure the panel will have bending-dominated behavior. At a core thickness of 6.36 mm the shear deflection share is still low (< 25%) and our panel will have bending-dominated behavior. As seen in Figure E3, at a core thickness of 6.36 mm the maximum shear in the core is significantly below the maximum allowable shear stress. The heat map shown in figure E4 provides a convenient way to choose face thickness based on the target deflection and your set core thickness. Here, a face thickness of 0.26 mm allows us to reach our deflection limit while operating at the allowable face stress during slamming. Using three layers of 2 oz fiberglass, a face thickness of 0.267 mm will be achieved. As seen in Figure E5, our current face and core thicknesses produce a maximum face stress well below the allowable amount.
+
+To assess fatigue failure due to bending stress the SN curve in Figure E6 [Reference 4] is used. For a face thickness of 0.267 mm and core thickness of 6.36 mm we encounter a face stress magnitude of 26.62 MPa. At that stress magnitude, over 10^6 cycles are required to fail. Considering the hull will only be used for 2 months fatigue failure from bending stress is unlikely to occur. Since the core shear stress is below 25% of our allowable stress, it is again unlikely for fatigue failure for shear stress to occur. 
+
+![Figure B](/assets/images/hullSNcurve.JPG)
+## References
+
+## Appendix B - How to spray Duratec Surface Primer
 
 1. Put 300 grams of Duratec gray surface primer into a mixing cup. 
 2. Add 10 percent acetone and 1 percent methyl ethyl ketone peroxide (MEKP) by mass. 
@@ -78,7 +91,7 @@ The completed hull was released successfully from the mold and met all structura
 5. Paint in a paint booth with ventilation on until Duratec runs out.
 6. Let the Duratec dry for at least 24 hours before handling and or sanding the part
 
-## Appendix B - How to sand Duratec Surface Primer
+## Appendix C - How to sand Duratec Surface Primer
 
  1. Put 80 grit sanding paper on a sanding block. 
  2. Sand until the entirety of the part has scratch lines going in a single direction. 
@@ -88,7 +101,7 @@ The completed hull was released successfully from the mold and met all structura
  6. Repeat step 5 with 2000 grit sandpaper. 
  7. Using wet paper towels, remove all excess Duratec ‘dust’ from part. The part should have a shiny, reflective, mirror finish.
 
-## Appendix C - How to spray gel coat
+## Appendix D - How to spray gel coat
 
  1. Put 300 grams of gel coat into the gel coat cup gun disposable cup 
  2. If high gloss desired, add Duratec high gloss additive. 
@@ -98,7 +111,7 @@ The completed hull was released successfully from the mold and met all structura
  6. Paint in paint booth with ventilation 
  7. Let gel coat dry for roughly 30 minutes before placing fiberglass
 
-## Appendix D - How to Vacuum Bag
+## Appendix E - How to Vacuum Bag
 1. Set up an area on a solid, flat table or sheet of acrylic or metal about twice as large as the part. 
 2. Place a sheet of Breather/Bleeder fabric that is just slightly larger than the part on the part.
 3. Place a sheet of release fabric that is just slightly larger than the part over the Breather/Bleeder fabric. 
@@ -109,22 +122,6 @@ The completed hull was released successfully from the mold and met all structura
 8. Attach the rest of the vacuum attachment and the vacuum, and turn on the vacuum. 
 9. Make sure there is release and bagging fabric between both parts of the vacuum attachment.
 
-## Appendix E - Composite Design Calculations and Figures
-
-The following figures are generated using a model that focuses on loading due to hull slam pressure. The geometry focuses on the largest unsupported panel (of length L) in the composite strucutre, and trats it as a flat sheet. This model was chosen becuase it introduces conservatisim into the design. Both bending (Euler Bernoulli) and shear (Timoshenko) deflection were accounted for to calculate bending moments and shear forces. A deflection target of L/200 was chosen based off of maritime standards. 
-
-![Figure A]({{ "assets/images/AppA.JPG" | relative_url }}){: class="large-image"}
-![Figure B]({{ "assets/images/hullSNcurve.JPG" | relative_url }}){: class="large-image"}
-
-### Meaningful deductions
-
-Based on Figure E1, which assumes a nominal face thickness of 0.24 mm, the required core thickness to reach out target deflection is 6.24 mm. The foam we will use is Divinycell DIVINYMAT due to its effectiveness with vacuum bagging. Each layer is 3.18 mm thick so to reach our target deflection two layers will be used for a 6.36 mm thick core. The shear deflection share (what percentage of deflection is caused by shear) is plotted in Figure E2. To maintain model assumptions, we need to ensure the panel will have bending-dominated behavior. At a core thickness of 6.36 mm the shear deflection share is still low (< 25%) and our panel will have bending-dominated behavior. As seen in Figure E3, at a core thickness of 6.36 mm the maximum shear in the core is significantly below the maximum allowable shear stress. The heat map shown in figure E4 provides a convenient way to choose face thickness based on the target deflection and your set core thickness. Here, a face thickness of 0.26 mm allows us to reach our deflection limit while operating at the allowable face stress during slamming. Using three layers of 2 oz fiberglass, a face thickness of 0.267 mm will be achieved. As seen in Figure E5, our current face and core thicknesses produce a maximum face stress well below the allowable amount.
-
-To assess fatigue failure due to bending stress the SN curve in Figure E6 [Reference 4] is used. For a face thickness of 0.267 mm and core thickness of 6.36 mm we encounter a face stress magnitude of 26.62 MPa. At that stress magnitude, over 10^6 cycles are required to fail. Considering the hull will only be used for 2 months fatigue failure from bending stress is unlikely to occur. Since the core shear stress is below 25% of our allowable stress, it is again unlikely for fatigue failure for shear stress to occur. 
-
-![](/assets/images/hullSNcurve A.jpg.JPG)
-
-## References
 
 [1] Germanisher Lloyd, Rules and Guidelines 2008 - I Ship Technology, Part 3 Special Craft Section Chapter 3 (updated 2003), 2008.
 
