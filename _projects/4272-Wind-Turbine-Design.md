@@ -3,7 +3,7 @@ layout: project
 title: Wind Turbine Blade Design
 description: Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers.
 technologies: [Blade element theory, ANSYS Fluent CFD, structural validation,  wind tunnel testing]
-image: /assets/images/hullCompleteBoat.JPG
+image: /assets/images/blade.JPG
 ---
 "Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers."
 
