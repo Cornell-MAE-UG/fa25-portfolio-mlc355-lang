@@ -3,6 +3,9 @@ layout: project
 title: Ridgid Sail Design
 description: The design of a ridgid Sail validated with CFD and FEA
 technologies: [SolidWorks, CFD, FEA]
+image: /assets/images/ridgidSail.JPG
+
+
 ---
 
 ## My Project Report
