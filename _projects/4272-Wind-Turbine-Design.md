@@ -32,13 +32,10 @@ The blade was designed for operation in the **Big Blue wind tunnel**, characteri
 
 A comparative evaluation of low-Re airfoils identified the **S1223 airfoil** as the optimal choice. Unlike conventional sections, the S1223 achieves **exceptionally high lift coefficients (CL ≈ 1.8–2.0)** in the relevant Reynolds range and exhibits **gentle stall behavior**, which is critical for stable torque production during startup and off-design operation.
 
-![Figure 1]({{ "assets/images/s1223.JPG" | relative_url }}){: class="project-image align-right"}
-
----
+![Fig 1](/assets/images/s1223.JPG)
 
 *Figure 1: Lift coefficient vs. angle of attack comparison at low Reynolds number.*
 
----
 
 ## Blade Geometry and Torque Optimization
 
@@ -50,42 +47,30 @@ The blade was designed around a **low tip-speed ratio (λ = 3)** to intentionall
 
 This geometry prioritizes torque generation while maintaining structural robustness and manufacturability.
 
-![Figure 2]({{ "assets/images/torque.JPG" | relative_url }}){: class="project-image align-right"}
-
----
+![Figure 2](/assets/images/torque.JPG)
 
 *Figure 2: Predicted rotor torque vs. expected wind speeds*
 
----
 
 ## Structural Validation
 
 Structural safety was assessed using MATLAB-based bending moment calculations derived from distributed aerodynamic loads. Accura 25 SLA material properties were used to verify that stresses remained well below allowable limits.
 
-![Figure 3]({{ "assets/images/bend.JPG" | relative_url }}){: class="project-image align-right"}
-
----
+![Figure 3](/assets/images/bend.JPG)
 
 *Figure 3: Root bending moment and structural safety margin.*
 
 The predicted **failure wind speed of ~68 m/s** provides more than a **10× safety margin** over expected operating conditions.
 
----
 
 ## CAD Modeling and Manufacturing Challenges
 
-The blade was modeled in **SolidWorks** using multiple airfoil cross-sections lofted along the span. Early CAD iterations revealed practical issues related to **trailing edge closure, STL integrity, and hub geometry**, which affected both printing and CFD usability.
+The blade was modeled in **SolidWorks** using multiple airfoil cross-sections lofted along the span. Early CAD iterations revealed practical issues related to **trailing edge closure, STL integrity, and hub geometry**, which affected both printing and CFD usability. These challenges required manual airfoil data cleanup and segmented lofting, introducing minor geometric discontinuities that were deemed negligible for aerodynamic analysis.
 
 
-![Figure 4]({{ "assets/images/cad.JPG" | relative_url }}){: class="project-image align-right"}
-
----
+![Figure 4](/assets/images/cad.JPG)
 
 *Figure 4: Final closed CAD geometry used for CFD analysis.*
-
-These challenges required manual airfoil data cleanup and segmented lofting, introducing minor geometric discontinuities that were deemed negligible for aerodynamic analysis.
-
----
 
 ## CFD Methodology (ANSYS Fluent)
 
@@ -96,22 +81,14 @@ The CFD model used a **120° periodic wedge domain** to reduce computational cos
 ### Meshing
 A refined surface and polyhedral volume mesh balanced near-wall resolution with manageable runtime.
 
-![Figure 5]({{ "assets/images/mesh.JPG" | relative_url }}){: class="project-image align-right"}
-
----
+![Figure 5](/assets/images/mesh.JPG)
 
 *Figure 5: Volume mesh cross-section*
 
-
-
-![Figure 6]({{ "assets/images/p.JPG" | relative_url }}){: class="project-image align-right"}
-
----
+![Figure 6](/assets/images/p.JPG)
 
 *Figure 6: Pressure contour along the blade surface*
 
-![Figure 7]({{ "assets/images/p2.JPG" | relative_url }}){: class="project-image align-right"}
-
----
+![Figure 7](/assets/images/p2.JPG)
 
 *Figure 7: Pressure contour across blade crossection*
