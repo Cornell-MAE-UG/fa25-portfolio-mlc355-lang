@@ -1,11 +1,12 @@
 ---
 layout: project
-title: "Wind Turbine Blade Design"
-year: 2025
-description: "Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers.
+title: Wind Turbine Blade Design
+description: Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers.
 technologies: [Blade element theory, ANSYS Fluent CFD, structural validation,  wind tunnel testing]
-image: ({{ site.baseurl }}/assets/images/hullCompleteBoat.JPG)
+image: /assets/images/hullCompleteBoat.JPG
 ---
+"Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers."
+
 
 # Torque-Optimized Wind Turbine Blade  
 ### Low-Re Aerodynamics, CFD, and Experimental Validation

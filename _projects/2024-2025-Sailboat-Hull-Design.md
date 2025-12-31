@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Fiberglass Sailboat Hull
-description: "Advanced Composites and Naval Architecture Project"
+description: Advanced Composites and Naval Architecture Project
 technologies: Composite sandwhich, CNC machining, Matlab, Solidworks
 image: /assets/images/hullCompleteBoat.JPG
 
