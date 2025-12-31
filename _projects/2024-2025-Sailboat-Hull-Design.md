@@ -16,7 +16,7 @@ Cornell University’s Autonomous Sailboat Team (CUSail) required a new sailboat
 
 The hull design, named ”Flat Stanley”, was chosen from a miniature model competition. Several hull shapes were tested in a pool, and Flat Stanley outperformed its competitors. In particular, the flat shape of the hull seen in Figure 1 drastically improved form stability and eliminated heeling. Excessive heeling has been a recurring problem in past years which opted for thinner designs. Due to the heeling, prior boats required substantial ballast weight that encumbered performance.
 
-![Fig 1](/assets/images/Figure1-HullGeometry.JPG)
+![Fig 1]({{ site.baseurl }}/assets/images/Figure1-HullGeometry.JPG)
 
 ## Composite Design
 
@@ -24,7 +24,7 @@ To optimize strength while minimizing weight, the hull was designed as a **fiber
 
 The midship panel was modeled as a **simply supported beam** with tributary width equal to the arclength at the widest section. A uniformly distributed load was calculated from estimated slam pressure. Bending stiffness was evaluated as a function of face and core thickness, enabling determination of deflection, bending moment, shear forces, and stresses.
 
-![Fig A](/assets/images/AppA.JPG)
+![Fig A]({{ site.baseurl }}/assets/images/AppA.JPG)
 
 Safety factors were applied to both slam pressure magnitude and material strength. Additional failure modes, including fatigue, were evaluated. The Matlab graphs used to choose the core and face thickness are shown on the right. For more information on the composite design process see Appendix A. 
 
@@ -34,7 +34,7 @@ The final composite design consists of:
 
 ## Plug Creation
 
-![Fig 2](/assets/images/HullFig2.JPG)
+![Fig 2]({{ site.baseurl }}/assets/images/HullFig2.JPG)
 
 To manufacture the hull, a **positive plug** was CNC machined from high-density machinable foam. The plug was produced in two halves and aligned using locating dowels before being bonded together using JB Weld.
 
@@ -42,7 +42,7 @@ After assembly, the seam between the two halves was filled using **Plaster of Pa
 
 Approximately six layers of **Duratec surface primer** were applied, with light sanding between coats to remove surface imperfections. Initial machining lines in the foam plug remained visible after early primer coats, requiring extensive sanding. In future iterations, sanding the foam plug prior to primer application is recommended.
 
-![Figure 5](/assets/images/hullfig5.JPG)
+![Figure 5]({{ site.baseurl }}/assets/images/hullfig5.JPG)
 
 ## Mold Creation
 
@@ -63,15 +63,15 @@ For final hull fabrication, release agents were applied to the mold before spray
 
 The completed hull was released successfully from the mold and met all structural and geometric requirements.
 
-![Figure 9](/assets/images/hullfig9.JPG)
+![Figure 9]({{ site.baseurl }}/assets/images/hullfig9.JPG)
 
-![BOM ](/assets/images/HullBOM.JPG)
+![BOM ]({{ site.baseurl }}/assets/images/HullBOM.JPG)
 
 ## Appendix A - Composite Design Calculations and Figures
 
 The following figures are generated using a model that focuses on loading due to hull slam pressure. The geometry focuses on the largest unsupported panel (of length L) in the composite strucutre, and trats it as a flat sheet. This model was chosen becuase it introduces conservatisim into the design. Both bending (Euler Bernoulli) and shear (Timoshenko) deflection were accounted for to calculate bending moments and shear forces. A deflection target of L/200 was chosen based off of maritime standards. 
 
-![Fig A](/assets/images/AppA.JPG)
+![Fig A]({{ site.baseurl }}/assets/images/AppA.JPG)
 
 ### Meaningful deductions
 
@@ -79,7 +79,7 @@ Based on Figure E1, which assumes a nominal face thickness of 0.24 mm, the requi
 
 To assess fatigue failure due to bending stress the SN curve in Figure E6 [Reference 4] is used. For a face thickness of 0.267 mm and core thickness of 6.36 mm we encounter a face stress magnitude of 26.62 MPa. At that stress magnitude, over 10^6 cycles are required to fail. Considering the hull will only be used for 2 months fatigue failure from bending stress is unlikely to occur. Since the core shear stress is below 25% of our allowable stress, it is again unlikely for fatigue failure for shear stress to occur. 
 
-![Figure B](/assets/images/hullSNcurve.JPG)
+![Figure B]({{ site.baseurl }}/assets/images/hullSNcurve.JPG)
 ## References
 
 ## Appendix B - How to spray Duratec Surface Primer
