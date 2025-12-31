@@ -4,7 +4,7 @@ title: "Wind Turbine Blade Design"
 year: 2025
 description: "Design and testing of a scale-model wind turbine blade optimized for torque at extremely low Reynolds numbers.
 technologies: [Blade element theory, ANSYS Fluent CFD, structural validation,  wind tunnel testing]
-image: /assets/images/hullCompleteBoat.JPG
+image: ({{ site.baseurl }}/assets/images/hullCompleteBoat.JPG)
 ---
 
 # Torque-Optimized Wind Turbine Blade  
@@ -47,7 +47,7 @@ The blade was designed around a **low tip-speed ratio (λ = 3)** to intentionall
 
 This geometry prioritizes torque generation while maintaining structural robustness and manufacturability.
 
-![Figure 2](/assets/images/torque.JPG)
+![Figure 2]({{ site.baseurl }}/assets/images/torque.JPG)
 
 *Figure 2: Predicted rotor torque vs. expected wind speeds*
 
@@ -56,7 +56,7 @@ This geometry prioritizes torque generation while maintaining structural robustn
 
 Structural safety was assessed using MATLAB-based bending moment calculations derived from distributed aerodynamic loads. Accura 25 SLA material properties were used to verify that stresses remained well below allowable limits.
 
-![Figure 3](/assets/images/bend.JPG)
+![Figure 3]({{ site.baseurl }}/assets/images/bend.JPG)
 
 *Figure 3: Root bending moment and structural safety margin.*
 
@@ -68,7 +68,7 @@ The predicted **failure wind speed of ~68 m/s** provides more than a **10× safe
 The blade was modeled in **SolidWorks** using multiple airfoil cross-sections lofted along the span. Early CAD iterations revealed practical issues related to **trailing edge closure, STL integrity, and hub geometry**, which affected both printing and CFD usability. These challenges required manual airfoil data cleanup and segmented lofting, introducing minor geometric discontinuities that were deemed negligible for aerodynamic analysis.
 
 
-![Figure 4](/assets/images/cad.JPG)
+![Figure 4]({{ site.baseurl }}/assets/images/cad.JPG)
 
 *Figure 4: Final closed CAD geometry used for CFD analysis.*
 
@@ -81,14 +81,14 @@ The CFD model used a **120° periodic wedge domain** to reduce computational cos
 ### Meshing
 A refined surface and polyhedral volume mesh balanced near-wall resolution with manageable runtime.
 
-![Figure 5](/assets/images/mesh.JPG)
+![Figure 5]({{ site.baseurl }}/assets/images/mesh.JPG)
 
 *Figure 5: Volume mesh cross-section*
 
-![Figure 6](/assets/images/p.JPG)
+![Figure 6]({{ site.baseurl }}/assets/images/p.JPG)
 
 *Figure 6: Pressure contour along the blade surface*
 
-![Figure 7](/assets/images/p2.JPG)
+![Figure 7]({{ site.baseurl }}/assets/images/p2.JPG)
 
 *Figure 7: Pressure contour across blade crossection*
