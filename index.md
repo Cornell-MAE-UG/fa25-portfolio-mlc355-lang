@@ -6,7 +6,7 @@ title: Marco Conte
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile-pic.png" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/headshot.png" | relative_url }}){: class="profile-image"}
 
  
 My name is Marco Conte and I am an Graduate Student at Cornell set to graduate December, 2026. I am pursuing a masters of enginering in Aerospace, and my undergraduate degree is in Mechanical Engineering with a Business minor. I hold an active DOD security clearance and aim to work in the aerospace industry. 
